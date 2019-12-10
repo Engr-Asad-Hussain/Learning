@@ -1,1 +1,5 @@
 Hello World form the local machine
+
+Machine Learning
+Deep Learning
+Artificial Intellegence
