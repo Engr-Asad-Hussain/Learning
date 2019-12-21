@@ -1,5 +1,20 @@
-This is the Demo File 
-I am learning how to use Github Locally on the machine and through the online server
+import pandas as pd
 
-Changes Online form the Asad
-Changes made
+series1 = pd.Series([8.1, 11, 14.5, 11.7, 14.9, 8.5, 6.9, 7.3, 12.1, 16, 8.5, 9, 32, 10.5, 13.3, 6.5, 12.1, 5.7, 3.7, 7.7])
+#print(series1)
+series2 = pd.Series([3.98, -73.99, -74.00, -73.97, -73.99, -73.97, -73.98, -73.99, -74.00, -73.95, -73.97, -73.98, -73.98, -73.97, -73.95, -73.97, -73.99, -73.98, -74.00, -73.99])
+#print(series2)
+series3 = pd.Series([40.77, 40.74, 40.73, 40.75, 40.73, 40.77, 40.73, 40.73, 40.74, 40.78, 40.77, 40.77, 40.72, 40.75, 40.78, 40.74, 40.73, 40.76, 40.73, 40.72])
+#print(series3)
+series4 = pd.Series([-74.00, -74.00, -73.95, -73.91, -73.97, -73.95, -73.99, -73.99, -74.00, -73.97, -74.00, -73.98, -74.03, -73.95, -73.97, -73.99, -73.98, -73.98, -74.00, -73.98])
+#print(series4)
+series5 = pd.Series([40,74, 40.78, 40.77, 40.77, 40.79, 40.78, 40.73, 40.75, 40.74, 40.74, 40.74, 40.76, 40.62, 40.76, 40.76, 40.75, 40.77, 40.75, 40.73])
+#print(series5)
+series6 = pd.Series([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1])
+#print(series6)
+series7 = pd.Series([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
+#print(series7)
+
+Dictionary = {0:series1, 1:series2, 2:series3, 3:series4, 4:series5, 5:series6, 6:series7}
+DataFrame = pd.DataFrame(Dictionary)
+print(DataFrame)
